@@ -46,3 +46,4 @@
 theme = tokyonight
 
 font-family = "Liga SFMono Nerd Font"
+background-opacity = 0.75
