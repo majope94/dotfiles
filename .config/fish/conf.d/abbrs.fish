@@ -14,3 +14,4 @@ abbr --add please sudo
 abbr --add fp fzf --preview "bat --style=numbers --color=always --line-range :500 {}"
 
 abbr --add gco git checkout
+abbr --add gcm git commit -m 
