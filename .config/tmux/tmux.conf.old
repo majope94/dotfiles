@@ -1,0 +1,30 @@
+# Use ctrl+a as leader
+unbind "C-b"
+set -g prefix "C-a"
+bind "a" send-prefix
+
+
+set -g bell-action none
+set -g visual-bell off
+#set -g display-pane-time 2000
+set -g mouse on
+
+# Vim-like bindings
+setw -g mode-keys vi
+bind "n" next-window
+bind "p" previous-window
+bind "C-n" next-window
+bind "C-p" previous-window
+bind "s" split-window -v
+bind "v" split-window -h
+bind "j" select-pane -D
+bind "k" select-pane -U
+bind "h" select-pane -L
+bind "l" select-pane -R
+bind -r "C-j" select-pane -D
+bind -r "C-k" select-pane -U
+bind -r "C-h" select-pane -L
+bind -r "C-l" select-pane -R
+bind "=" select-layout tiled
+bind "!" break-pane
+bind \; choose-tree

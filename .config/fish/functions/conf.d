@@ -1,0 +1,1 @@
+/home/mjp/.config/fish/conf.d
