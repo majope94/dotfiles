@@ -1,8 +1,8 @@
 abbr --add ls lsd
-abbr --add l ls -l
-abbr --add la ls -a
-abbr --add lla ls -la
-abbr --add lt ls --tree
+abbr --add l lsd -l
+abbr --add la lsd -ah
+abbr --add lla lsd -lah
+abbr --add lt lsd --tree
 
 abbr --add cat bat
 abbr --add d z

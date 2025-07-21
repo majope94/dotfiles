@@ -266,3 +266,8 @@ end
 # Starship and zoxide
 starship init fish | source
 zoxide init fish | source
+
+# Set up fzf key bindings
+fzf --fish | source
+
+thefuck --alias | source
