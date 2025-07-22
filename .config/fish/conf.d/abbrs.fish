@@ -1,5 +1,5 @@
 abbr --add ls lsd
-abbr --add l lsd -l
+abbr --add ll lsd -l
 abbr --add la lsd -ah
 abbr --add lla lsd -lah
 abbr --add lt lsd --tree
