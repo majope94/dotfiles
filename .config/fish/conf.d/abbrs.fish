@@ -1,4 +1,5 @@
 abbr --add ls lsd
+abbr --add llsd
 abbr --add ll lsd -l
 abbr --add la lsd -ah
 abbr --add lla lsd -lah
