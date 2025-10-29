@@ -17,3 +17,5 @@ abbr --add fp fzf --preview "bat --style=numbers --color=always --line-range :50
 abbr --add gco git checkout
 abbr --add gcm git commit -m 
 abbr --add gp git push -u 
+
+abbr --add rcp rsync --progress --size-only --inplace --verbose
