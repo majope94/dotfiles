@@ -272,6 +272,6 @@ fzf --fish | source
 
 if type -q tmux
     if not test -n "$TMUX"
-        tmux attach-session -t default; or tmux new-session -s default
+        tmux attach-session -t 󰣇; or tmux new-session -s 󰣇;
     end
 end
