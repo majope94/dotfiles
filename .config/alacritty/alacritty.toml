@@ -1,0 +1,15 @@
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+opacity = 0.85
+blur = true
+
+
+[font.normal]
+family = "Liga SFMono Nerd Font"
+style = "Regular"
+
+[general]
+# Import the Tokyo Night Theme
+import = ["~/.config/alacritty/tokyo-night.toml"]

@@ -1,0 +1,3 @@
+dconf_settings.ini
+\.git
+^/README.*
