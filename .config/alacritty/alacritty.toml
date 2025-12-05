@@ -10,6 +10,14 @@ blur = true
 family = "Liga SFMono Nerd Font"
 style = "Regular"
 
+[font.italic]
+family = "Liga SFMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Liga SFMono Nerd Font"
+style = "Regular"
+
 [general]
 # Import the Tokyo Night Theme
 import = ["~/.config/alacritty/tokyo-night.toml"]
