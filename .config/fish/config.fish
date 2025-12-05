@@ -270,4 +270,8 @@ zoxide init fish | source
 # Set up fzf key bindings
 fzf --fish | source
 
-thefuck --alias | source
+if type -q tmux
+    if not test -n "$TMUX"
+        tmux attach-session -t default; or tmux new-session -s default
+    end
+end
