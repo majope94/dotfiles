@@ -253,6 +253,16 @@ for file in $__fish_config_dir/conf.d/*.fish $__fish_sysconf_dir/conf.d/*.fish $
     and source $file
 end
 
+function zellij_tab_name_update --on-event fish_preexec
+    if set -q ZELLIJ
+        # Extract the first word from the command arguments as the tab title
+        set title (string split ' ' $argv)[1]
+        # Rename the Zellij tab
+        command nohup zellij action rename-tab $title >/dev/null 2>&1
+    end
+end
+
+
 set fish_greeting
 
 export EDITOR=nvim
