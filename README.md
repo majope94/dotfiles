@@ -18,7 +18,7 @@ This setup configures the following programs:
 Clone this repository to `~/.dotfiles`:
 
 ```bash
-git clone https://github.com/majope94/dotfiles ~/.dotfiles
+git clone https://github.com/majope94/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ```
 
@@ -40,6 +40,10 @@ sudo apt install fish neovim zellij dconf-cli
 *For Spicetify, you can use the official installer:*
 ```bash
 curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh
+```
+*For Ghostty on Ubuntu, use the inoffical installer*
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/mkasberg/ghostty-ubuntu/HEAD/install.sh)"
 ```
 
 **Fedora**
