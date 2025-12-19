@@ -18,7 +18,7 @@ This setup configures the following programs:
 Clone this repository to `~/.dotfiles`:
 
 ```bash
-git clone <repository-url> ~/.dotfiles
+git clone https://github.com/majope94/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ```
 
