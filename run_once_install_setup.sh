@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGS="nvim zellij ghostty zoxide lsd openbsd-netcat fzf ripgrep batcat zsh zsh-autosuggestions zsh-syntax-highlighting"
+PKGS="nvim zellij ghostty zoxide lsd openbsd-netcat fzf ripgrep bat zsh zsh-autosuggestions zsh-syntax-highlighting"
 
 
 install_on_arch() {
