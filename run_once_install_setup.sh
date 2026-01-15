@@ -1,6 +1,7 @@
 #!/bin/bash
 
-PKGS="$(cat .pkgs)"
+PKGS="nvim zellij ghostty zoxide lsd openbsd-netcat fzf ripgrep batcat zsh zsh-autosuggestions zsh-syntax-highlighting"
+
 
 install_on_arch() {
     sudo pacman -Syu --noconfirm ${PKGS}
