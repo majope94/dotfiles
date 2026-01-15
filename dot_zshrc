@@ -2,7 +2,7 @@
 export ZSH="/usr/share/oh-my-zsh"
 
 # Path to default editor (neovim)
-export EDITOR="/sur/bin/nvim"
+export EDITOR="/usr/bin/nvim"
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 DISABLE_MAGIC_FUNCTIONS="true"
