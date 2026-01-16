@@ -46,7 +46,7 @@
 theme = Firewatch
 
 font-family = "Liga SFMono Nerd Font"
-background-opacity = 0.85
+#background-opacity = 0.85
 maximize = true
 
 window-decoration = false
