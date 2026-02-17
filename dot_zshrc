@@ -110,6 +110,8 @@ alias la='lsd -latrh'
 alias cat="bat"
 alias d="z"
 
+# Turn windows pc off
+alias pc_off="ssh mjp@192.168.178.20 'shutdown -f -s -t 0'"
 
 # git
 alias gco="git checkout"
@@ -124,3 +126,7 @@ alias rcp="rsync --progress --size-only --inplace --verbose"
 # zoxide
 eval "$(zoxide init zsh)"
 eval "$(zellij setup --generate-auto-start zsh)"
+
+
+# k3s Config
+export KUBECONFIG=~/.kube/config
